@@ -79,6 +79,8 @@ a {
 .nav-link{
     font-weight: 500;
     color: #2E2F42;
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-link:hover, 
@@ -93,12 +95,13 @@ a {
   list-style-type: none;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .address-link{
     text-decoration: none;
     color: #434455;
+    display: block;
+    padding: 24px 0;
 }
 
 .address-link:hover, 
@@ -155,7 +158,7 @@ a {
 
 /* section features */
 .features{
-  padding: 120px;
+  padding: 120px 0;
 }
 
 
@@ -200,10 +203,16 @@ a {
   line-height: 1.11;
   margin-bottom: 72px;
 }
+
+.team-item{
+  background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
+}
+
 .team-person{
   background-color: #FFFFFF;
   width: 264px;
-  padding: 32px 0;
+  padding: 32px 16px;
   border-radius: 0 0 4px 4px;
 }
 
@@ -263,10 +272,6 @@ a {
   margin-bottom: 8px;
 }
 
-.portfolio-desc {
-  margin-top: 8px;
-}
-
 .portfolio-content {
     padding: 32px 16px; /* Внутрішні відступи, щоб текст не прилипав до рамки */
     border: 1px solid #e7e9fc; 
@@ -276,7 +281,7 @@ a {
 /* section footer */
 .footer{
   background-color: #2E2F42;
-  padding: 102px 0;
+  padding: 100px 0;
 }
 
 
