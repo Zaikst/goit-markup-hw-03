@@ -8,6 +8,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
 ul, ol {
   list-style-type: none;
   margin: 0;
@@ -41,7 +45,6 @@ a {
 /* header */
 .header {
   border-bottom: 1px solid #E7E9FC;
-  padding: 24px 0;
 }
 
 .header .container {
@@ -90,6 +93,7 @@ a {
   list-style-type: none;
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .address-link{
@@ -141,6 +145,7 @@ a {
   letter-spacing: 0.04em;
   display: block;    
   margin: 0 auto;
+  padding: 16px 32px;
 }
 
 .hero-button:hover,
@@ -150,13 +155,14 @@ a {
 
 /* section features */
 .features{
-  padding: 100px;
+  padding: 120px;
 }
 
 
 .features-list{
   display: flex;
   justify-content: space-between;
+  gap: 24px
 }
 
 .features-item{
@@ -170,14 +176,13 @@ a {
     color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 /* section features */
 .team {
   background-color: #F4F4FD;
-  height: 732px;
-  padding-top: 155px;
-  padding-bottom: 85px;
+  padding: 120px 0;
 }
 
 .team-list {
@@ -195,12 +200,16 @@ a {
   line-height: 1.11;
   margin-bottom: 72px;
 }
-.team-item{
+.team-person{
   background-color: #FFFFFF;
   width: 264px;
-  border-radius: 4px;
+  padding: 32px 0;
+  border-radius: 0 0 4px 4px;
 }
 
+.team-img {
+  display: block
+}
 .team-name{
   text-align: center;
   font-size: 20px;
@@ -208,6 +217,7 @@ a {
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .team-desc{
@@ -217,8 +227,7 @@ a {
 
 /* section portfolio */
 .portfolio{
-  padding-top: 160PX;
-  padding-bottom: 120PX;
+  padding: 120px 0;
 }
 
 .portfolio-list{
@@ -226,6 +235,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 48px;
+  column-gap: 24px
 }
 
 .portfolio-img {
